@@ -1,15 +1,13 @@
-function createNode(element) {
-    return document.createElement(element);
-}
+var request = new Request('https://estagio.geopostenergy.com/WorldCup/GetAllTeams', {
+    method: 'GET',
+    headers: new Headers({'git-user' : 'w4lto'})
+});
 
-function append(parent, el) {
-    return parent.appendChild(el);
-}
-
-fetch(url)
-    .them(function(data) {
-
+fetch(request)
+    .then((response) => response.json())
+    .then((responseJson) => {
+        console.log(requestJson); 
     })
-    .catch(function(error) {
-
+    .catch((error) => {
+        console.error(error);
     });
