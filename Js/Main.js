@@ -195,3 +195,20 @@ function solve(data){
 
     console.log(top1)
 }
+
+
+const url = 'https://estagio.geopostenergy.com/WorldCup/InsertFinalResult'
+
+const request2 = new Request(url, {
+    method: 'POST',
+    body: JSON.stringify(),
+    headers: new Headers({
+        'git-user' : 'w4lto'
+    })
+})
+
+fetch(request2)
+    .then(res => res.json())
+    .then(res => console.log(res))
+
+console.log(request2)

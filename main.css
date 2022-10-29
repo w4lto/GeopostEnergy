@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    background: linear-gradient(180deg, #751F40 0%, #AB0649 100%);
+    color: #CF0B50;
+    font-family: "Roboto";
+    font-style: normal;
+  }
+  
+  h2 {
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+  }
+  
+  h3 {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  .container {
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 2.5rem;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(6, 18.5rem);
+    grid-template-rows: repeat(8, 18.5rem);
+    gap: 2rem;
+  }
+  
+  .groupBox {
+    border-radius: 1rem;
+    grid-column: 1/2;
+  }
+  .groupBox1 {
+    grid-row: 1/2;
+  }
+  .groupBox2 {
+    grid-row: 2/3;
+  }
+  .groupBox3 {
+    grid-row: 3/4;
+  }
+  .groupBox4 {
+    grid-row: 4/5;
+  }
+  .groupBox5 {
+    grid-row: 5/6;
+  }
+  .groupBox6 {
+    grid-row: 6/7;
+  }
+  .groupBox7 {
+    grid-row: 7/8;
+  }
+  .groupBox8 {
+    grid-row: 8/9;
+  }
+  .groupBox .gruopName {
+    height: 6rem;
+    height: 25%;
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+    background-color: #CF0B50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .groupBox .groupTeams {
+    background-color: white;
+    border-radius: 0 0 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 75%;
+    padding: 0 2rem;
+  }
+  .groupBox .groupTeams h3:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+  
+  .mataMata {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 50%;
+    border-radius: 1rem;
+  }
+  .mataMata h3:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+  .mataMata8 {
+    grid-column: 2/3;
+  }
+  .mataMata8:nth-child(odd) {
+    margin-top: auto;
+  }
+  .mataMata4 {
+    grid-column: 3/4;
+    margin-top: auto;
+    transform: translateY(60%);
+  }
+  .mataMata4-1 {
+    grid-row: 1/2;
+  }
+  .mataMata4-2 {
+    grid-row: 3/4;
+  }
+  .mataMata4-3 {
+    grid-row: 5/6;
+  }
+  .mataMata4-4 {
+    grid-row: 7/8;
+  }
+  .mataMata2 {
+    grid-column: 4/5;
+    margin-top: auto;
+    transform: translateY(60%);
+  }
+  .mataMata2-1 {
+    grid-row: 2/3;
+  }
+  .mataMata2-2 {
+    grid-row: 6/7;
+  }
+  .mataMata.final {
+    grid-column: 5/6;
+    grid-row: 4/5;
+    margin-top: auto;
+    transform: translateY(60%);
+  }
+  .mataMata.champion {
+    /* color: white;
+    background-color: $wineColor; */
+    background-color: white;
+    grid-column: 6/6;
+    grid-row: 4/5;
+    margin-top: auto;
+    transform: translateY(60%);
+  }
+  .mataMata.champion h2 {
+    color: #CF0B50;
+  }
+  
+  .lineY {
+    height: 100%;
+    width: 1rem;
+    background-color: white;
+    margin-top: auto;
+    margin-left: 50%;
+  }
+  
+  .lineX {
+    width: 70%;
+    height: 1rem;
+    background-color: white;
+    margin-top: auto;
+    margin-left: 50%;
+    transform: translateY(150%);
+  }
+  
+  .mataMata2lineY {
+    grid-row: 3/7;
+    grid-column: 4/5;
+  }
+  
+  .mataMata2lineX {
+    grid-row: 4/5;
+    grid-column: 4/5;
+  }
+  
+  .mataMata4lineY-1 {
+    grid-row: 2/4;
+    grid-column: 3/4;
+  }
+  .mataMata4lineY-2 {
+    grid-row: 6/8;
+    grid-column: 3/4;
+  }
+  
+  .mataMata4lineX-1 {
+    grid-row: 2/3;
+    grid-column: 3/4;
+  }
+  .mataMata4lineX-2 {
+    grid-row: 6/7;
+    grid-column: 3/4;
+  }/*# sourceMappingURL=main.css.map */
